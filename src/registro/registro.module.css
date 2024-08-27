@@ -1,0 +1,63 @@
+.caja{
+    display: flex;
+    height: 720px;
+    width: 100%;
+    background-color: #000e55;
+}
+
+.titulo{
+    position: absolute;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 33%;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    color: #ffffff;
+    margin-top: 120px;
+    margin-left: 20%;
+    font-size: 17px;
+    gap: 13px;
+}
+
+.datos h2{
+    text-decoration: underline;
+}
+
+.datos button{
+    background-color: #ffa726;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    color: #ffffff;
+    margin-top: 120px;
+    margin-left: 20%;
+    font-size: 17px;
+    gap: 13px;
+}
+
+.login h2{
+    text-decoration: underline;
+}
+
+.login button{
+    background-color: #ffa726;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

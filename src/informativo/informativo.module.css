@@ -1,0 +1,68 @@
+.caja{
+    display: flex;
+    margin-top: 30px;
+    gap: 80px;
+    height: 700px;
+}
+
+.cajaArriba{
+    position: absolute;
+    width: 86.9%;
+    height: 50px;
+    margin-left: -660px;
+    margin-top: -30px;
+    background-color: #000e55;
+}
+
+.boton2{
+    width: 120px;
+    background-color: #ffa726;
+    color: #ffffff;
+    margin-top: 7px;
+    margin-left: 88%;
+    font-size: 20px;
+}
+
+.imagen{
+    position: absolute;
+    width: 40%;
+    height: 500px;
+    margin-left: -600px;
+    margin-top: 100px;
+}
+
+.imagen2{
+    position: absolute;
+    width: 30%;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.titulo{
+    position: absolute;
+    margin-top: 420px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.ul{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.botonConsultar{
+    position: absolute;
+    margin-top: 645px;
+    margin-left: 23%;
+    width: 255px;
+    height: 50px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #ffa726;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
