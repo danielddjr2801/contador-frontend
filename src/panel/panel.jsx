@@ -21,7 +21,7 @@ const Panel = () => {
 
     const handleConsultarBoletas = async () => {
             try {
-                var response = await axios.get("http://localhost:8080/user/page",
+                var response = await axios.get("http://contador-backend.vercel.app/user/page",
                     {responseType: 'arraybuffer'});
                 var base64Image = Buffer.from(response.data, 'binary').toString('base64');
                 setImagecontabilidad("data:image/png;base64," + base64Image);

@@ -29,7 +29,7 @@ const Register = () => {
             return;
         }
 
-        axios.post("http://localhost:8080/user/register", {
+        axios.post("https://contador-backend.vercel.app/user/register", {
             firstName: firstName,
             lastName: lastName,
             email: email,
@@ -62,7 +62,7 @@ const Register = () => {
         }
 
         try {
-            const response = await axios.post("http://localhost:8080/user/register", {
+            const response = await axios.post("https://contador-backend.vercel.app/user/register", {
                 firstName: firstName,
                 lastName: lastName,
                 email: email,
@@ -73,12 +73,6 @@ const Register = () => {
         } catch (error) {
             console.error("Error al registrar:", error.response.data);
         }
-
-        // if (!Register()) {
-        //     return;
-        // } else{
-        //     console.log("Registro Exitoso");
-        // }
 
         navigate("/intro");
     };
@@ -92,7 +86,7 @@ const Register = () => {
         }
         
         try {
-            const response = await axios.post("http://localhost:8080/user/login", {
+            const response = await axios.post("https://contador-backend.vercel.app/user/login", {
                 rut: loginRut,
                 password: loginPassword
             });
